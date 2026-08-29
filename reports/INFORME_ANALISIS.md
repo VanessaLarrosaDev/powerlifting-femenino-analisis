@@ -210,9 +210,18 @@ el que se usa en P3. El dashboard incorpora un filtro para alternar entre ambos.
 ### Escalado con el peso corporal
 
 Se ajusta una ley alométrica de la forma `Total = a · Peso^b`. El exponente
-resultante es de aproximadamente 0,58, con intervalo de confianza estrecho y R²
-elevado, claramente inferior a 1. Esto implica retornos decrecientes: duplicar el
-peso corporal multiplica el total por unas 1,5 veces, no por 2.
+resultante es de **0,485**, con un intervalo de confianza al 95% muy estrecho
+(0,483 a 0,488) y claramente inferior a 1. Esto implica retornos decrecientes:
+duplicar el peso corporal multiplica el total por 1,4 veces, no por 2.
+
+Conviene interpretar bien el R² de este ajuste, que es de solo **0,18**. Significa
+que el peso corporal explica apenas el 18% de la variabilidad del total levantado,
+lo cual no contradice el hallazgo sino que lo delimita. El exponente está estimado
+con enorme precisión, porque hay 825.296 observaciones, y describe con fiabilidad
+la relación media entre peso y fuerza. Pero entre dos atletas del mismo peso las
+marcas varían enormemente según su entrenamiento y su experiencia, y eso es
+justamente lo que el modelo predictivo confirma más adelante: la trayectoria
+personal pesa mucho más que la biología.
 
 El resultado coincide con la explicación fisiológica habitual, según la cual la
 fuerza depende de la sección transversal del músculo, que escala en dos dimensiones,
@@ -225,7 +234,7 @@ Wilks.
 
 ![Figura 4](figures/a5_peso_fuerza.png)
 
-*Figura 4. Relación entre peso corporal y fuerza. El ajuste alométrico de la izquierda da un exponente de 0,58, por debajo de 1, lo que indica retornos decrecientes. A la derecha, la fuerza relativa por tramo de peso.*
+*Figura 4. Relación entre peso corporal y fuerza. El ajuste alométrico de la izquierda da un exponente de 0,485, por debajo de 1, lo que indica retornos decrecientes. La dispersión de la nube de puntos refleja el R² de 0,18: el peso marca la tendencia, pero no determina la marca individual. A la derecha, la fuerza relativa por tramo de peso.*
 
 ### Edad
 
