@@ -335,20 +335,6 @@ culturales sobre mujeres y deportes de fuerza.
 El detalle completo está en la sección 10 del
 [informe](reports/INFORME_ANALISIS.md).
 
-## Cumplimiento de los requisitos
-
-| Requisito | Dónde se cumple |
-|---|---|
-| Dos conjuntos de datos en bruto de fuentes distintas | Tres fuentes en `data/raw/` |
-| Conjunto final con las transformaciones necesarias | 825.296 x 83 en `data/processed/` |
-| Mínimo 50.000 filas | 825.296 |
-| Mínimo 20 columnas | 83 |
-| Análisis exhaustivo del conjunto final | 6 notebooks, 12 bloques de análisis, 14 figuras |
-| Dashboard operativo que aporte valor | `dashboard/` |
-| Informe del análisis | [`reports/INFORME_ANALISIS.md`](reports/INFORME_ANALISIS.md) |
-| README con los pasos seguidos | Este documento |
-| Buena organización y sistema de carpetas | Motor en `src/`, narrativa en `notebooks/`, salidas en `reports/` |
-
 ## Fuentes y licencias
 
 **OpenPowerlifting**, https://www.openpowerlifting.org. Datos contribuidos al
