@@ -133,12 +133,3 @@ notebooks los importan en lugar de duplicar lógica.
 5. Dashboard en Power BI: datos optimizados y documentación
 6. Informe del análisis
 7. README y publicación en GitHub
-
-## 9. Principio de trabajo
-
-Los hallazgos se reportan como salen, no como convendría que salieran.
-
-El cruce con los índices de igualdad de género no confirma la hipótesis intuitiva, y
-eso se presenta como resultado, bien argumentado y acompañado del análisis
-metodológico que explica por qué. Un hallazgo negativo bien sustentado demuestra más
-criterio analítico que un resultado forzado.
