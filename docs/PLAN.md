@@ -55,10 +55,12 @@ todo la realidad estadounidense. El nivel comparado internacional se restringe a
 países con volumen suficiente para ser comparables, y es el único válido para
 afirmar algo sobre diferencias entre países.
 
-El dashboard llevará un filtro de ámbito que permita alternar entre ambos.
+La distinción se materializa en la columna `ambito_analisis` del conjunto final,
+que etiqueta cada registro según si su país alcanza el volumen necesario para ser
+comparable. La segunda página del dashboard aplica ese criterio.
 
 El motivo de plantearlo así es que detectar el sesgo y tomar una postura explícita
-ante él vale más en una defensa que presentar un resultado limpio pero engañoso.
+ante él vale más que presentar un resultado limpio pero engañoso.
 
 ## 4. Capa de machine learning
 
@@ -88,9 +90,13 @@ métricas signifiquen algo.
 
 ## 5. Capa SQL
 
-El conjunto final se carga en una base SQLite versionada en el repositorio,
-acompañada de un fichero de consultas analíticas con agregaciones, CTEs y funciones
-de ventana que reproducen parte del análisis.
+El conjunto final se carga en una base SQLite acompañada de un fichero de consultas
+analíticas con agregaciones, CTEs y funciones de ventana que reproducen parte del
+análisis.
+
+La base ocupa 357 MB con sus índices, así que no se versiona: se genera ejecutando
+`src/base_datos.py`. El repositorio guarda el script que la construye, las consultas
+y sus resultados en CSV.
 
 Se elige SQLite en lugar de PostgreSQL porque el fichero `.db` viaja dentro del
 repositorio, de modo que cualquiera puede clonarlo y ejecutar las consultas sin
@@ -101,7 +107,7 @@ ambos motores.
 
 Los notebooks de `notebooks/` recogen el recorrido paso a paso, con explicación en
 texto entre el código y los gráficos. Es el formato que se espera en la entrega y el
-que mejor se defiende oralmente.
+que permite seguir el razonamiento junto a los resultados.
 
 Los módulos de `src/` se mantienen como motor reutilizable y reproducible. Los
 notebooks los importan en lugar de duplicar lógica.
@@ -134,5 +140,5 @@ Los hallazgos se reportan como salen, no como convendría que salieran.
 
 El cruce con los índices de igualdad de género no confirma la hipótesis intuitiva, y
 eso se presenta como resultado, bien argumentado y acompañado del análisis
-metodológico que explica por qué. Un hallazgo negativo bien defendido demuestra más
+metodológico que explica por qué. Un hallazgo negativo bien sustentado demuestra más
 criterio analítico que un resultado forzado.
