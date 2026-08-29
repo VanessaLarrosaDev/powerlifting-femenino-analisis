@@ -38,8 +38,8 @@ def trocear() -> list[tuple[str, str, str]]:
     Devuelve una lista de (codigo, titulo, sentencia).
     """
     texto = FICHERO_SQL.read_text(encoding="utf-8")
-    # Cada consulta empieza con una cabecera '-- Cn · Titulo'
-    patron = re.compile(r"^-- (C\d+) · (.+?)$", re.MULTILINE)
+    # Cada consulta empieza con una cabecera '-- Cn. Titulo'
+    patron = re.compile(r"^-- (C\d+)\. (.+?)$", re.MULTILINE)
     marcas = list(patron.finditer(texto))
     consultas = []
     for i, m in enumerate(marcas):
@@ -72,7 +72,7 @@ def main() -> None:
         if filtro and codigo not in filtro:
             continue
         print("=" * 78)
-        print(f"{codigo} · {titulo}")
+        print(f"{codigo}. {titulo}")
         print("=" * 78)
         try:
             df = pd.read_sql_query(sentencia, con)

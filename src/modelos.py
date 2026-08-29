@@ -417,7 +417,7 @@ def figuras(modelos: dict, importancia: pd.DataFrame) -> None:
     ax1.set_ylim(lim)
     r2 = r2_score(y, pred)
     estilo.titular(ax1, "Marca predicha frente a marca real",
-                   f"Conjunto de prueba 2023-2026 · R² = {r2:.3f}")
+                   f"Conjunto de prueba 2023-2026. R² = {r2:.3f}")
     ax1.set_xlabel("Total real (kg)")
     ax1.set_ylabel("Total predicho (kg)")
     ax1.legend()
@@ -429,7 +429,7 @@ def figuras(modelos: dict, importancia: pd.DataFrame) -> None:
     ax2.axvline(res.mean(), color=estilo.TINTA, ls=":", lw=2,
                 label=f"Media: {res.mean():+.2f} kg")
     estilo.titular(ax2, "Distribución del error",
-                   f"Centrada y simétrica: sin sesgo sistemático · "
+                   f"Centrada y simétrica, sin sesgo sistemático. "
                    f"{(res.abs() <= 20).mean() * 100:.0f}% dentro de ±20 kg")
     ax2.set_xlabel("Error real − predicho (kg)")
     ax2.set_ylabel("Nº de casos")

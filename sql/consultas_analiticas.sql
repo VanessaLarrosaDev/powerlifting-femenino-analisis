@@ -1,6 +1,6 @@
 -- ===========================================================================
 -- CONSULTAS ANALITICAS
--- Proyecto final · Master en Data Analytics
+-- Powerlifting femenino mundial: rendimiento y contexto social
 -- Base de datos: powerlifting_femenino.db (SQLite)
 --
 -- Cada consulta responde a una pregunta concreta del analisis y esta pensada
@@ -12,7 +12,7 @@
 
 
 -- ---------------------------------------------------------------------------
--- C1 · Evolucion anual de la participacion y del rendimiento
+-- C1. Evolucion anual de la participacion y del rendimiento
 --
 -- Responde a P1. Usa una funcion de ventana LAG para calcular la variacion
 -- interanual sin necesidad de autounir la tabla consigo misma.
@@ -46,7 +46,7 @@ LIMIT 20;
 
 
 -- ---------------------------------------------------------------------------
--- C2 · Ranking de paises: volumen y nivel competitivo
+-- C2. Ranking de paises: volumen y nivel competitivo
 --
 -- Responde a P1 (nivel B del plan: solo paises comparables). Combina la tabla
 -- de hechos con la dimension de pais y clasifica con RANK.
@@ -80,7 +80,7 @@ LIMIT 25;
 
 
 -- ---------------------------------------------------------------------------
--- C3 · Retencion por cohorte de debut
+-- C3. Retencion por cohorte de debut
 --
 -- Responde a P2. Agrupa a las atletas por el anio en que debutaron y mide
 -- cuantas siguen compitiendo despues. Es el analisis que revela que el
@@ -117,7 +117,7 @@ ORDER BY anio_debut;
 
 
 -- ---------------------------------------------------------------------------
--- C4 · Las atletas con mayor progresion
+-- C4. Las atletas con mayor progresion
 --
 -- Responde a P2. Compara la primera y la ultima marca de cada atleta usando
 -- FIRST_VALUE y LAST_VALUE sobre una ventana ordenada por fecha.
@@ -152,7 +152,7 @@ LIMIT 20;
 
 
 -- ---------------------------------------------------------------------------
--- C5 · Posicion relativa de cada atleta dentro de su pais y anio
+-- C5. Posicion relativa de cada atleta dentro de su pais y anio
 --
 -- Metrica del "nivel B" del plan: normalizar dentro de cada pais-anio elimina
 -- el sesgo de composicion geografica. PERCENT_RANK devuelve el percentil.
@@ -184,7 +184,7 @@ LIMIT 20;
 
 
 -- ---------------------------------------------------------------------------
--- C6 · Efecto del equipamiento medido INTRA-ATLETA
+-- C6. Efecto del equipamiento medido INTRA-ATLETA
 --
 -- Reproduce en SQL el hallazgo clave del analisis: la comparacion directa
 -- entre grupos sugiere que el equipamiento perjudica, pero comparando a cada
@@ -235,7 +235,7 @@ FROM hechos_participacion;
 
 
 -- ---------------------------------------------------------------------------
--- C7 · Cuota femenina frente al contexto economico del pais
+-- C7. Cuota femenina frente al contexto economico del pais
 --
 -- Responde a P3. Solo indicadores OBSERVADOS (no propagados) y paises con
 -- volumen suficiente, que es la unica lectura valida entre paises.
@@ -259,7 +259,7 @@ ORDER BY cuota_femenina_media DESC;
 
 
 -- ---------------------------------------------------------------------------
--- C8 · Marcas de referencia por categoria de peso y decada
+-- C8. Marcas de referencia por categoria de peso y decada
 --
 -- Tabla cruzada construida con agregacion condicional (el patron clasico de
 -- pivot en SQL). Muestra la evolucion del nivel maximo en cada categoria.
@@ -281,7 +281,7 @@ ORDER BY registros DESC;
 
 
 -- ---------------------------------------------------------------------------
--- C9 · Reparto de la fuerza entre los tres movimientos por perfil
+-- C9. Reparto de la fuerza entre los tres movimientos por perfil
 --
 -- Responde a P2: confirma que el reparto es muy estable y que el perfil
 -- dominante no se traduce en mas exito competitivo.

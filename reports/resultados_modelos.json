@@ -26,7 +26,7 @@
       "rmse_kg": 67.532,
       "r2": 0.3217,
       "error_pct": 17.963,
-      "segundos": 4.1
+      "segundos": 3.6
     },
     {
       "modelo": "3. Perfil (Gradient Boost)",
@@ -50,7 +50,7 @@
       "rmse_kg": 24.548,
       "r2": 0.911,
       "error_pct": 5.266,
-      "segundos": 5.1
+      "segundos": 4.8
     }
   ],
   "importancia_variables": [

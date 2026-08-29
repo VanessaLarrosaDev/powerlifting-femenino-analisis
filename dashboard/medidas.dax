@@ -1,15 +1,10 @@
 // ===========================================================================
-// MEDIDAS DAX DEL DASHBOARD
-// Proyecto final · Powerlifting femenino mundial
+// MEDIDAS DAX DEL MODELO
+// Powerlifting femenino mundial: rendimiento y contexto social
 //
-// Cómo usarlas: en Power BI, con la tabla "hechos" seleccionada, pulsa
-// "Nueva medida" y pega el cuerpo de cada medida (sin la línea de comentario).
-// Repite para cada una. Al terminar, dale formato a cada medida en la pestaña
-// "Herramientas de medidas".
-//
-// Recomendación: crea una tabla vacía para agruparlas todas.
-//   Modelado → Nueva tabla →   _Medidas = {1}
-//   Luego oculta su única columna y crea las medidas dentro de esa tabla.
+// Las 23 medidas del dashboard, agrupadas en la tabla "Medidas" del modelo.
+// Se documentan aquí junto a su formato numérico y el criterio que justifica
+// cada cálculo.
 // ===========================================================================
 
 
