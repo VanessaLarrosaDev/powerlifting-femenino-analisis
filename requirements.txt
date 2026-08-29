@@ -1,0 +1,26 @@
+# Proyecto Final - Master en Data Analytics
+# Entorno reproducible. Instalacion:  pip install -r requirements.txt
+# Probado con Python 3.13
+
+# --- Manipulacion y analisis de datos ---
+pandas>=2.2
+numpy>=1.26
+openpyxl>=3.1          # lectura/escritura de ficheros Excel
+
+# --- Analisis estadistico ---
+scipy>=1.13            # pruebas de hipotesis, correlaciones, distribuciones
+
+# --- Visualizacion ---
+matplotlib>=3.8
+seaborn>=0.13
+
+# --- Machine Learning / IA ---
+scikit-learn>=1.5      # regresion, clustering, metricas, validacion cruzada
+
+# --- Descarga de datos ---
+# Necesario en equipos con antivirus/proxy que inspecciona TLS: hace que
+# Python valide certificados contra el almacen del sistema operativo.
+truststore>=0.9
+
+# --- Entorno de trabajo ---
+jupyterlab>=4.0

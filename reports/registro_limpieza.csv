@@ -1,0 +1,11 @@
+paso,filas_antes,filas_despues,eliminadas,pct_eliminado,motivo
+2.1 Duplicados exactos,1120543,1119718,825,0.074,Filas identicas en todas las columnas: mismo resultado cargado dos veces
+2.2 Fecha invalida,1119718,1119718,0,0.0,Sin fecha no se puede situar en el tiempo
+2.3 Solo modalidad completa (SBD),1119718,894805,224913,20.087,"Se excluyen pruebas parciales (solo banca, solo peso muerto...)"
+2.4 Solo competicion sancionada,894805,893094,1711,0.191,Garantiza arbitraje oficial y homologacion de las marcas
+2.5 Marca valida en los 3 movimientos,893094,828899,64195,7.188,Se excluyen nulos y valores negativos (intentos fallidos o descalificaciones)
+2.6 Total coherente con la suma,828899,828899,0,0.0,"Tolerancia de 2,5 kg (redondeos de disco); descarta errores de carga"
+2.7 Peso corporal plausible,828899,825298,3601,0.434,"Fuera de [30.0, 250.0] kg o ausente: dato no fiable"
+2.8 Total plausible,825298,825297,1,0.0,"Fuera de [20.0, 1000.0] kg"
+2.9 Fuerza relativa plausible,825297,825296,1,0.0,Total/peso > 12.0 es fisiologicamente imposible
+2.10 Edad imposible -> nulo,825296,825296,0,0.0,553 edades fuera de rango anuladas sin eliminar la fila

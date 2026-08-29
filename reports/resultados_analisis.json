@@ -1,0 +1,2094 @@
+{
+  "panorama": {
+    "n_registros": 825296,
+    "n_atletas": 227570,
+    "n_paises": 114,
+    "n_federaciones": 400,
+    "n_competiciones": 24041,
+    "periodo": [
+      "1975-09-05",
+      "2026-08-09"
+    ],
+    "competiciones_por_atleta": 3.63
+  },
+  "descriptivos": {
+    "total_kg": {
+      "count": 825296.0,
+      "mean": 303.9,
+      "std": 82.32,
+      "min": 34.0,
+      "25%": 247.21,
+      "50%": 297.1,
+      "75%": 352.5,
+      "max": 932.5
+    },
+    "peso_corporal_kg": {
+      "count": 825296.0,
+      "mean": 69.15,
+      "std": 18.15,
+      "min": 30.0,
+      "25%": 56.0,
+      "50%": 65.9,
+      "75%": 78.02,
+      "max": 216.0
+    },
+    "fuerza_relativa": {
+      "count": 825296.0,
+      "mean": 4.53,
+      "std": 1.23,
+      "min": 0.59,
+      "25%": 3.67,
+      "50%": 4.44,
+      "75%": 5.29,
+      "max": 11.81
+    },
+    "puntos_dots": {
+      "count": 825296.0,
+      "mean": 317.03,
+      "std": 77.13,
+      "min": 46.83,
+      "25%": 263.49,
+      "50%": 311.04,
+      "75%": 363.54,
+      "max": 818.06
+    },
+    "kg_sentadilla": {
+      "count": 825296.0,
+      "mean": 114.3,
+      "std": 35.08,
+      "min": 2.27,
+      "25%": 90.0,
+      "50%": 111.13,
+      "75%": 135.0,
+      "max": 432.5
+    },
+    "kg_banca": {
+      "count": 825296.0,
+      "mean": 62.13,
+      "std": 20.92,
+      "min": 4.54,
+      "25%": 47.63,
+      "50%": 60.0,
+      "75%": 72.5,
+      "max": 283.5
+    },
+    "kg_peso_muerto": {
+      "count": 825296.0,
+      "mean": 127.48,
+      "std": 31.55,
+      "min": 1.0,
+      "25%": 105.0,
+      "50%": 125.0,
+      "75%": 147.5,
+      "max": 315.0
+    },
+    "edad": {
+      "count": 474759.0,
+      "mean": 29.16,
+      "std": 11.99,
+      "min": 10.0,
+      "25%": 20.0,
+      "50%": 26.0,
+      "75%": 36.0,
+      "max": 90.0
+    }
+  },
+  "forma_distribuciones": {
+    "total_kg": {
+      "asimetria": 0.631,
+      "curtosis": 0.948
+    },
+    "fuerza_relativa": {
+      "asimetria": 0.505,
+      "curtosis": 0.473
+    },
+    "puntos_dots": {
+      "asimetria": 0.537,
+      "curtosis": 0.693
+    }
+  },
+  "evolucion_anual": [
+    {
+      "anio": 1975,
+      "registros": 8,
+      "atletas": 8,
+      "total_mediano": 199.58,
+      "dots_mediano": 220.84,
+      "pct_femenina": 1.47
+    },
+    {
+      "anio": 1977,
+      "registros": 67,
+      "atletas": 63,
+      "total_mediano": 217.5,
+      "dots_mediano": 235.8,
+      "pct_femenina": 6.2
+    },
+    {
+      "anio": 1978,
+      "registros": 65,
+      "atletas": 64,
+      "total_mediano": 242.67,
+      "dots_mediano": 262.62,
+      "pct_femenina": 11.04
+    },
+    {
+      "anio": 1979,
+      "registros": 30,
+      "atletas": 28,
+      "total_mediano": 266.48,
+      "dots_mediano": 314.4,
+      "pct_femenina": 2.25
+    },
+    {
+      "anio": 1980,
+      "registros": 816,
+      "atletas": 500,
+      "total_mediano": 260.0,
+      "dots_mediano": 300.57,
+      "pct_femenina": 5.26
+    },
+    {
+      "anio": 1981,
+      "registros": 1150,
+      "atletas": 709,
+      "total_mediano": 260.0,
+      "dots_mediano": 299.32,
+      "pct_femenina": 6.81
+    },
+    {
+      "anio": 1982,
+      "registros": 1666,
+      "atletas": 1034,
+      "total_mediano": 272.16,
+      "dots_mediano": 309.13,
+      "pct_femenina": 9.1
+    },
+    {
+      "anio": 1983,
+      "registros": 2163,
+      "atletas": 1381,
+      "total_mediano": 277.5,
+      "dots_mediano": 317.56,
+      "pct_femenina": 10.61
+    },
+    {
+      "anio": 1984,
+      "registros": 2018,
+      "atletas": 1300,
+      "total_mediano": 282.5,
+      "dots_mediano": 318.09,
+      "pct_femenina": 10.13
+    },
+    {
+      "anio": 1985,
+      "registros": 1910,
+      "atletas": 1326,
+      "total_mediano": 290.0,
+      "dots_mediano": 327.79,
+      "pct_femenina": 11.29
+    },
+    {
+      "anio": 1986,
+      "registros": 856,
+      "atletas": 701,
+      "total_mediano": 312.74,
+      "dots_mediano": 353.56,
+      "pct_femenina": 14.24
+    },
+    {
+      "anio": 1987,
+      "registros": 849,
+      "atletas": 613,
+      "total_mediano": 325.0,
+      "dots_mediano": 367.48,
+      "pct_femenina": 14.77
+    },
+    {
+      "anio": 1988,
+      "registros": 883,
+      "atletas": 695,
+      "total_mediano": 335.0,
+      "dots_mediano": 378.97,
+      "pct_femenina": 13.65
+    },
+    {
+      "anio": 1989,
+      "registros": 875,
+      "atletas": 658,
+      "total_mediano": 332.5,
+      "dots_mediano": 371.88,
+      "pct_femenina": 11.56
+    },
+    {
+      "anio": 1990,
+      "registros": 920,
+      "atletas": 733,
+      "total_mediano": 327.5,
+      "dots_mediano": 370.31,
+      "pct_femenina": 12.14
+    },
+    {
+      "anio": 1991,
+      "registros": 1044,
+      "atletas": 719,
+      "total_mediano": 312.5,
+      "dots_mediano": 358.12,
+      "pct_femenina": 13.23
+    },
+    {
+      "anio": 1992,
+      "registros": 1306,
+      "atletas": 999,
+      "total_mediano": 322.5,
+      "dots_mediano": 358.1,
+      "pct_femenina": 15.46
+    },
+    {
+      "anio": 1993,
+      "registros": 1418,
+      "atletas": 1005,
+      "total_mediano": 313.75,
+      "dots_mediano": 351.29,
+      "pct_femenina": 16.76
+    },
+    {
+      "anio": 1994,
+      "registros": 1250,
+      "atletas": 928,
+      "total_mediano": 325.0,
+      "dots_mediano": 364.74,
+      "pct_femenina": 17.19
+    },
+    {
+      "anio": 1995,
+      "registros": 1857,
+      "atletas": 1342,
+      "total_mediano": 317.5,
+      "dots_mediano": 353.53,
+      "pct_femenina": 16.66
+    },
+    {
+      "anio": 1996,
+      "registros": 1796,
+      "atletas": 1210,
+      "total_mediano": 332.5,
+      "dots_mediano": 367.04,
+      "pct_femenina": 18.87
+    },
+    {
+      "anio": 1997,
+      "registros": 1742,
+      "atletas": 1221,
+      "total_mediano": 326.59,
+      "dots_mediano": 359.53,
+      "pct_femenina": 17.55
+    },
+    {
+      "anio": 1998,
+      "registros": 1852,
+      "atletas": 1249,
+      "total_mediano": 330.0,
+      "dots_mediano": 364.55,
+      "pct_femenina": 16.77
+    },
+    {
+      "anio": 1999,
+      "registros": 2076,
+      "atletas": 1413,
+      "total_mediano": 327.5,
+      "dots_mediano": 368.02,
+      "pct_femenina": 18.31
+    },
+    {
+      "anio": 2000,
+      "registros": 2116,
+      "atletas": 1410,
+      "total_mediano": 327.5,
+      "dots_mediano": 365.9,
+      "pct_femenina": 17.34
+    },
+    {
+      "anio": 2001,
+      "registros": 2534,
+      "atletas": 1768,
+      "total_mediano": 317.5,
+      "dots_mediano": 357.46,
+      "pct_femenina": 17.61
+    },
+    {
+      "anio": 2002,
+      "registros": 3181,
+      "atletas": 2093,
+      "total_mediano": 315.25,
+      "dots_mediano": 351.97,
+      "pct_femenina": 17.76
+    },
+    {
+      "anio": 2003,
+      "registros": 3242,
+      "atletas": 2030,
+      "total_mediano": 322.5,
+      "dots_mediano": 359.99,
+      "pct_femenina": 16.47
+    },
+    {
+      "anio": 2004,
+      "registros": 3441,
+      "atletas": 2133,
+      "total_mediano": 327.5,
+      "dots_mediano": 364.8,
+      "pct_femenina": 18.14
+    },
+    {
+      "anio": 2005,
+      "registros": 3459,
+      "atletas": 2225,
+      "total_mediano": 325.0,
+      "dots_mediano": 360.41,
+      "pct_femenina": 17.41
+    },
+    {
+      "anio": 2006,
+      "registros": 3287,
+      "atletas": 2106,
+      "total_mediano": 324.32,
+      "dots_mediano": 357.54,
+      "pct_femenina": 16.95
+    },
+    {
+      "anio": 2007,
+      "registros": 3664,
+      "atletas": 2238,
+      "total_mediano": 330.0,
+      "dots_mediano": 364.1,
+      "pct_femenina": 17.08
+    },
+    {
+      "anio": 2008,
+      "registros": 3706,
+      "atletas": 2240,
+      "total_mediano": 322.5,
+      "dots_mediano": 356.27,
+      "pct_femenina": 16.04
+    },
+    {
+      "anio": 2009,
+      "registros": 3733,
+      "atletas": 2374,
+      "total_mediano": 317.5,
+      "dots_mediano": 350.84,
+      "pct_femenina": 16.26
+    },
+    {
+      "anio": 2010,
+      "registros": 4383,
+      "atletas": 2754,
+      "total_mediano": 312.5,
+      "dots_mediano": 343.96,
+      "pct_femenina": 10.64
+    },
+    {
+      "anio": 2011,
+      "registros": 5519,
+      "atletas": 3383,
+      "total_mediano": 305.0,
+      "dots_mediano": 331.11,
+      "pct_femenina": 11.4
+    },
+    {
+      "anio": 2012,
+      "registros": 6541,
+      "atletas": 3980,
+      "total_mediano": 295.0,
+      "dots_mediano": 319.23,
+      "pct_femenina": 12.08
+    },
+    {
+      "anio": 2013,
+      "registros": 9673,
+      "atletas": 5940,
+      "total_mediano": 287.5,
+      "dots_mediano": 311.9,
+      "pct_femenina": 14.05
+    },
+    {
+      "anio": 2014,
+      "registros": 29878,
+      "atletas": 13915,
+      "total_mediano": 270.0,
+      "dots_mediano": 290.97,
+      "pct_femenina": 26.18
+    },
+    {
+      "anio": 2015,
+      "registros": 38748,
+      "atletas": 18538,
+      "total_mediano": 278.0,
+      "dots_mediano": 296.47,
+      "pct_femenina": 28.34
+    },
+    {
+      "anio": 2016,
+      "registros": 46098,
+      "atletas": 23019,
+      "total_mediano": 283.5,
+      "dots_mediano": 301.37,
+      "pct_femenina": 29.48
+    },
+    {
+      "anio": 2017,
+      "registros": 51949,
+      "atletas": 26605,
+      "total_mediano": 290.0,
+      "dots_mediano": 305.29,
+      "pct_femenina": 30.52
+    },
+    {
+      "anio": 2018,
+      "registros": 56616,
+      "atletas": 28892,
+      "total_mediano": 292.5,
+      "dots_mediano": 307.17,
+      "pct_femenina": 31.19
+    },
+    {
+      "anio": 2019,
+      "registros": 60644,
+      "atletas": 31521,
+      "total_mediano": 295.0,
+      "dots_mediano": 309.58,
+      "pct_femenina": 31.6
+    },
+    {
+      "anio": 2020,
+      "registros": 36814,
+      "atletas": 19247,
+      "total_mediano": 288.03,
+      "dots_mediano": 301.94,
+      "pct_femenina": 34.24
+    },
+    {
+      "anio": 2021,
+      "registros": 44570,
+      "atletas": 24387,
+      "total_mediano": 300.0,
+      "dots_mediano": 311.6,
+      "pct_femenina": 32.78
+    },
+    {
+      "anio": 2022,
+      "registros": 67405,
+      "atletas": 33284,
+      "total_mediano": 300.0,
+      "dots_mediano": 311.01,
+      "pct_femenina": 35.51
+    },
+    {
+      "anio": 2023,
+      "registros": 79871,
+      "atletas": 40403,
+      "total_mediano": 302.5,
+      "dots_mediano": 313.56,
+      "pct_femenina": 35.39
+    },
+    {
+      "anio": 2024,
+      "registros": 84475,
+      "atletas": 42486,
+      "total_mediano": 306.17,
+      "dots_mediano": 316.03,
+      "pct_femenina": 36.35
+    },
+    {
+      "anio": 2025,
+      "registros": 80953,
+      "atletas": 42411,
+      "total_mediano": 305.0,
+      "dots_mediano": 314.67,
+      "pct_femenina": 36.04
+    }
+  ],
+  "crecimiento": {
+    "atletas_2000": 1410,
+    "atletas_2025": 42411,
+    "multiplicador": 30.08,
+    "tcac_pct": 14.59
+  },
+  "tendencia_cuota_femenina": {
+    "cuota_2000": 17.34,
+    "cuota_2025": 36.04,
+    "pendiente_pp_anio": 0.9694,
+    "r2": 0.6893,
+    "p_valor": 1.5478765081009251e-07
+  },
+  "top_paises": [
+    {
+      "iso3": "USA",
+      "pais_competicion": "USA",
+      "region": "America del Norte",
+      "registros": 537100,
+      "atletas": 139820,
+      "total_mediano": 287.5,
+      "dots_mediano": 298.68,
+      "cuota_femenina": 36.308,
+      "gii": 0.196,
+      "idh": 0.925
+    },
+    {
+      "iso3": "RUS",
+      "pais_competicion": "Russia",
+      "region": "Europa",
+      "registros": 42889,
+      "atletas": 14229,
+      "total_mediano": 287.5,
+      "dots_mediano": 327.92,
+      "cuota_femenina": 20.964,
+      "gii": 0.23,
+      "idh": 0.811
+    },
+    {
+      "iso3": "CAN",
+      "pais_competicion": "Canada",
+      "region": "America del Norte",
+      "registros": 26169,
+      "atletas": 9203,
+      "total_mediano": 315.0,
+      "dots_mediano": 324.69,
+      "cuota_femenina": 34.352,
+      "gii": 0.088,
+      "idh": 0.928
+    },
+    {
+      "iso3": "AUS",
+      "pais_competicion": "Australia",
+      "region": "Oceania",
+      "registros": 25495,
+      "atletas": 8232,
+      "total_mediano": 325.0,
+      "dots_mediano": 334.33,
+      "cuota_femenina": 36.393,
+      "gii": 0.083,
+      "idh": 0.939
+    },
+    {
+      "iso3": "GBR",
+      "pais_competicion": "England",
+      "region": "Europa",
+      "registros": 19777,
+      "atletas": 7345,
+      "total_mediano": 312.5,
+      "dots_mediano": 323.73,
+      "cuota_femenina": 32.824,
+      "gii": 0.109,
+      "idh": 0.931
+    },
+    {
+      "iso3": "GBR",
+      "pais_competicion": "UK",
+      "region": "Europa",
+      "registros": 7161,
+      "atletas": 3772,
+      "total_mediano": 320.0,
+      "dots_mediano": 336.4,
+      "cuota_femenina": 34.413,
+      "gii": 0.134,
+      "idh": 0.914
+    },
+    {
+      "iso3": "FRA",
+      "pais_competicion": "France",
+      "region": "Europa",
+      "registros": 9858,
+      "atletas": 3742,
+      "total_mediano": 317.5,
+      "dots_mediano": 346.0,
+      "cuota_femenina": 28.606,
+      "gii": 0.089,
+      "idh": 0.904
+    },
+    {
+      "iso3": "IND",
+      "pais_competicion": "India",
+      "region": "Asia",
+      "registros": 5842,
+      "atletas": 3472,
+      "total_mediano": 300.0,
+      "dots_mediano": 327.035,
+      "cuota_femenina": 34.066,
+      "gii": 0.476,
+      "idh": 0.626
+    },
+    {
+      "iso3": "UKR",
+      "pais_competicion": "Ukraine",
+      "region": "Europa",
+      "registros": 9121,
+      "atletas": 3403,
+      "total_mediano": 285.0,
+      "dots_mediano": 325.63,
+      "cuota_femenina": 20.922,
+      "gii": 0.272,
+      "idh": 0.748
+    },
+    {
+      "iso3": "DEU",
+      "pais_competicion": "Germany",
+      "region": "Europa",
+      "registros": 8138,
+      "atletas": 3029,
+      "total_mediano": 332.5,
+      "dots_mediano": 347.115,
+      "cuota_femenina": 23.346,
+      "gii": 0.084,
+      "idh": 0.938
+    },
+    {
+      "iso3": "SWE",
+      "pais_competicion": "Sweden",
+      "region": "Europa",
+      "registros": 7426,
+      "atletas": 2743,
+      "total_mediano": 350.0,
+      "dots_mediano": 363.515,
+      "cuota_femenina": 34.217,
+      "gii": 0.034,
+      "idh": 0.935
+    },
+    {
+      "iso3": "CZE",
+      "pais_competicion": "Czechia",
+      "region": "Europa",
+      "registros": 6486,
+      "atletas": 2695,
+      "total_mediano": 340.0,
+      "dots_mediano": 362.495,
+      "cuota_femenina": 22.24,
+      "gii": 0.136,
+      "idh": 0.878
+    },
+    {
+      "iso3": "POL",
+      "pais_competicion": "Poland",
+      "region": "Europa",
+      "registros": 6458,
+      "atletas": 2676,
+      "total_mediano": 315.0,
+      "dots_mediano": 336.82,
+      "cuota_femenina": 23.524,
+      "gii": 0.115,
+      "idh": 0.874
+    },
+    {
+      "iso3": "NZL",
+      "pais_competicion": "New Zealand",
+      "region": "Oceania",
+      "registros": 7052,
+      "atletas": 2390,
+      "total_mediano": 320.0,
+      "dots_mediano": 323.755,
+      "cuota_femenina": 36.557,
+      "gii": 0.109,
+      "idh": 0.932
+    },
+    {
+      "iso3": "FIN",
+      "pais_competicion": "Finland",
+      "region": "Europa",
+      "registros": 7578,
+      "atletas": 2376,
+      "total_mediano": 332.5,
+      "dots_mediano": 343.675,
+      "cuota_femenina": 28.369,
+      "gii": 0.046,
+      "idh": 0.927
+    },
+    {
+      "iso3": "ITA",
+      "pais_competicion": "Italy",
+      "region": "Europa",
+      "registros": 5635,
+      "atletas": 2325,
+      "total_mediano": 330.0,
+      "dots_mediano": 366.87,
+      "cuota_femenina": 28.873,
+      "gii": 0.068,
+      "idh": 0.897
+    },
+    {
+      "iso3": "ESP",
+      "pais_competicion": "Spain",
+      "region": "Europa",
+      "registros": 4856,
+      "atletas": 2261,
+      "total_mediano": 325.0,
+      "dots_mediano": 353.88,
+      "cuota_femenina": 29.187,
+      "gii": 0.062,
+      "idh": 0.906
+    },
+    {
+      "iso3": "ARG",
+      "pais_competicion": "Argentina",
+      "region": "America Latina y Caribe",
+      "registros": 4119,
+      "atletas": 2157,
+      "total_mediano": 317.5,
+      "dots_mediano": 341.93,
+      "cuota_femenina": 29.023,
+      "gii": 0.304,
+      "idh": 0.846
+    },
+    {
+      "iso3": "ZAF",
+      "pais_competicion": "South Africa",
+      "region": "Africa",
+      "registros": 3721,
+      "atletas": 2123,
+      "total_mediano": 332.5,
+      "dots_mediano": 351.62,
+      "cuota_femenina": 35.346,
+      "gii": 0.415,
+      "idh": 0.71
+    },
+    {
+      "iso3": "NOR",
+      "pais_competicion": "Norway",
+      "region": "Europa",
+      "registros": 9923,
+      "atletas": 2101,
+      "total_mediano": 325.0,
+      "dots_mediano": 337.48,
+      "cuota_femenina": 29.285,
+      "gii": 0.037,
+      "idh": 0.949
+    },
+    {
+      "iso3": "IRL",
+      "pais_competicion": "Ireland",
+      "region": "Europa",
+      "registros": 5256,
+      "atletas": 1892,
+      "total_mediano": 315.0,
+      "dots_mediano": 323.79,
+      "cuota_femenina": 35.888,
+      "gii": 0.081,
+      "idh": 0.941
+    },
+    {
+      "iso3": "JPN",
+      "pais_competicion": "Japan",
+      "region": "Asia",
+      "registros": 3796,
+      "atletas": 1761,
+      "total_mediano": 300.0,
+      "dots_mediano": 344.125,
+      "cuota_femenina": 25.687,
+      "gii": 0.111,
+      "idh": 0.902
+    },
+    {
+      "iso3": "HUN",
+      "pais_competicion": "Hungary",
+      "region": "Europa",
+      "registros": 3379,
+      "atletas": 1676,
+      "total_mediano": 320.0,
+      "dots_mediano": 339.23,
+      "cuota_femenina": 29.152,
+      "gii": 0.246,
+      "idh": 0.839
+    },
+    {
+      "iso3": "CHN",
+      "pais_competicion": "China",
+      "region": "Asia",
+      "registros": 2314,
+      "atletas": 1666,
+      "total_mediano": 283.0,
+      "dots_mediano": 317.045,
+      "cuota_femenina": 19.69,
+      "gii": 0.186,
+      "idh": 0.787
+    },
+    {
+      "iso3": "GBR",
+      "pais_competicion": "Scotland",
+      "region": "Europa",
+      "registros": 3709,
+      "atletas": 1445,
+      "total_mediano": 312.5,
+      "dots_mediano": 318.79,
+      "cuota_femenina": 38.696,
+      "gii": 0.105,
+      "idh": 0.934
+    }
+  ],
+  "concentracion_top5_pct": 69.47,
+  "por_region": {
+    "America del Norte": {
+      "atletas": 149090,
+      "registros": 565205,
+      "dots_mediano": 300.03,
+      "cuota_femenina": 36.19
+    },
+    "Europa": {
+      "atletas": 54962,
+      "registros": 187891,
+      "dots_mediano": 338.56,
+      "cuota_femenina": 27.38
+    },
+    "Asia": {
+      "atletas": 12344,
+      "registros": 23063,
+      "dots_mediano": 327.75,
+      "cuota_femenina": 29.1
+    },
+    "Oceania": {
+      "atletas": 10418,
+      "registros": 32783,
+      "dots_mediano": 331.8,
+      "cuota_femenina": 36.39
+    },
+    "America Latina y Caribe": {
+      "atletas": 6384,
+      "registros": 12240,
+      "dots_mediano": 347.74,
+      "cuota_femenina": 30.61
+    },
+    "Africa": {
+      "atletas": 2406,
+      "registros": 4114,
+      "dots_mediano": 347.38,
+      "cuota_femenina": 34.16
+    }
+  },
+  "correlaciones_igualdad": {
+    "gii": {
+      "etiqueta": "Indice desigualdad genero (GII)",
+      "pearson": 0.089,
+      "p_pearson": 0.020949188351419474,
+      "spearman": -0.0533,
+      "p_spearman": 0.16690447324391583,
+      "n": 673
+    },
+    "idh": {
+      "etiqueta": "Indice desarrollo humano (IDH)",
+      "pearson": -0.1567,
+      "p_pearson": 4.220877077417939e-05,
+      "spearman": 0.0246,
+      "p_spearman": 0.5233472190085682,
+      "n": 677
+    },
+    "gdi": {
+      "etiqueta": "Indice desarrollo genero (GDI)",
+      "pearson": -0.159,
+      "p_pearson": 3.240966489296747e-05,
+      "spearman": -0.048,
+      "p_spearman": 0.21207455265090205,
+      "n": 677
+    },
+    "pib": {
+      "etiqueta": "PIB per capita (PPA)",
+      "pearson": -0.0341,
+      "p_pearson": 0.3759943190347904,
+      "spearman": -0.0328,
+      "p_spearman": 0.3940383654301146,
+      "n": 677
+    },
+    "actividad_fem": {
+      "etiqueta": "Tasa actividad laboral femenina",
+      "pearson": -0.1218,
+      "p_pearson": 0.0015092030918413932,
+      "spearman": 0.0157,
+      "p_spearman": 0.683282709057525,
+      "n": 676
+    },
+    "educacion_fem": {
+      "etiqueta": "Matriculacion superior femenina",
+      "pearson": -0.1716,
+      "p_pearson": 7.26578036619052e-06,
+      "spearman": -0.104,
+      "p_spearman": 0.006797165427253792,
+      "n": 676
+    }
+  },
+  "cuota_por_grupo_desigualdad": {
+    "Alta desigualdad": {
+      "count": 175,
+      "mean": 28.05,
+      "median": 26.73,
+      "std": 14.28
+    },
+    "Baja desigualdad": {
+      "count": 381,
+      "mean": 20.28,
+      "median": 17.89,
+      "std": 13.32
+    },
+    "Desigualdad media": {
+      "count": 219,
+      "mean": 23.0,
+      "median": 20.77,
+      "std": 14.31
+    },
+    "Muy baja desigualdad": {
+      "count": 318,
+      "mean": 23.0,
+      "median": 22.3,
+      "std": 11.24
+    }
+  },
+  "prueba_grupos_desigualdad": {
+    "anova_F": 14.072,
+    "anova_p": 5.280878057383933e-09,
+    "kruskal_H": 70.874,
+    "kruskal_p": 2.773593471722183e-15,
+    "n_grupos": 4
+  },
+  "correlaciones_parciales": {
+    "gii": {
+      "etiqueta": "Desigualdad genero (GII)",
+      "r_cruda": 0.089,
+      "r_parcial": 0.0817,
+      "p": 0.034147283406466805,
+      "n": 673
+    },
+    "idh": {
+      "etiqueta": "Desarrollo humano (IDH)",
+      "r_cruda": -0.1567,
+      "r_parcial": -0.1538,
+      "p": 5.864545244874977e-05,
+      "n": 677
+    },
+    "pib": {
+      "etiqueta": "PIB per capita (PPA)",
+      "r_cruda": -0.0341,
+      "r_parcial": -0.0268,
+      "p": 0.48706122108079697,
+      "n": 677
+    },
+    "educacion_fem": {
+      "etiqueta": "Matriculacion superior fem.",
+      "r_cruda": -0.1716,
+      "r_parcial": -0.1679,
+      "p": 1.1475014211313273e-05,
+      "n": 676
+    }
+  },
+  "corte_transversal_2015_2022": {
+    "gii": {
+      "etiqueta": "Desigualdad genero (GII)",
+      "pearson": -0.0867,
+      "p": 0.5623217780912955,
+      "spearman": -0.192,
+      "n": 47
+    },
+    "idh": {
+      "etiqueta": "Desarrollo humano (IDH)",
+      "pearson": 0.2485,
+      "p": 0.09213261937703768,
+      "spearman": 0.3799,
+      "n": 47
+    },
+    "pib": {
+      "etiqueta": "PIB per capita (PPA)",
+      "pearson": 0.3539,
+      "p": 0.014661345048479177,
+      "spearman": 0.3732,
+      "n": 47
+    },
+    "educacion": {
+      "etiqueta": "Matriculacion superior fem.",
+      "pearson": 0.127,
+      "p": 0.3948668583777055,
+      "spearman": 0.1797,
+      "n": 47
+    }
+  },
+  "paises_corte_transversal": [
+    {
+      "iso3": "ARE",
+      "pais_competicion": "UAE",
+      "cuota": 34.197,
+      "gii": 0.041,
+      "idh": 0.934,
+      "pib": 70492.905,
+      "educacion": 62.96,
+      "registros": 362
+    },
+    {
+      "iso3": "ARG",
+      "pais_competicion": "Argentina",
+      "cuota": 21.228,
+      "gii": 0.311,
+      "idh": 0.849,
+      "pib": 27100.66,
+      "educacion": 121.297,
+      "registros": 1107
+    },
+    {
+      "iso3": "AUS",
+      "pais_competicion": "Australia",
+      "cuota": 37.13,
+      "gii": 0.086,
+      "idh": 0.941,
+      "pib": 57575.66,
+      "educacion": 131.891,
+      "registros": 12530
+    },
+    {
+      "iso3": "AUT",
+      "pais_competicion": "Austria",
+      "cuota": 21.963,
+      "gii": 0.065,
+      "idh": 0.917,
+      "pib": 63158.653,
+      "educacion": 96.406,
+      "registros": 720
+    },
+    {
+      "iso3": "BEL",
+      "pais_competicion": "Belgium",
+      "cuota": 18.285,
+      "gii": 0.05,
+      "idh": 0.935,
+      "pib": 59828.78,
+      "educacion": 92.829,
+      "registros": 495
+    },
+    {
+      "iso3": "BLR",
+      "pais_competicion": "Belarus",
+      "cuota": 28.117,
+      "gii": 0.117,
+      "idh": 0.81,
+      "pib": 25288.008,
+      "educacion": 103.665,
+      "registros": 718
+    },
+    {
+      "iso3": "BRA",
+      "pais_competicion": "Brazil",
+      "cuota": 24.998,
+      "gii": 0.406,
+      "idh": 0.759,
+      "pib": 18041.784,
+      "educacion": 64.07,
+      "registros": 735
+    },
+    {
+      "iso3": "CAN",
+      "pais_competicion": "Canada",
+      "cuota": 36.118,
+      "gii": 0.084,
+      "idh": 0.93,
+      "pib": 56558.957,
+      "educacion": 84.848,
+      "registros": 13337
+    },
+    {
+      "iso3": "CHE",
+      "pais_competicion": "Switzerland",
+      "cuota": 29.605,
+      "gii": 0.018,
+      "idh": 0.962,
+      "pib": 82563.192,
+      "educacion": 73.667,
+      "registros": 243
+    },
+    {
+      "iso3": "CHN",
+      "pais_competicion": "China",
+      "cuota": 16.693,
+      "gii": 0.187,
+      "idh": 0.785,
+      "pib": 20519.237,
+      "educacion": 73.08,
+      "registros": 323
+    },
+    {
+      "iso3": "CZE",
+      "pais_competicion": "Czechia",
+      "cuota": 21.388,
+      "gii": 0.128,
+      "idh": 0.893,
+      "pib": 45710.612,
+      "educacion": 79.678,
+      "registros": 2425
+    },
+    {
+      "iso3": "DEU",
+      "pais_competicion": "Germany",
+      "cuota": 18.754,
+      "gii": 0.079,
+      "idh": 0.946,
+      "pib": 61784.788,
+      "educacion": 73.242,
+      "registros": 3096
+    },
+    {
+      "iso3": "DNK",
+      "pais_competicion": "Denmark",
+      "cuota": 25.059,
+      "gii": 0.022,
+      "idh": 0.944,
+      "pib": 65937.785,
+      "educacion": 95.93,
+      "registros": 1053
+    },
+    {
+      "iso3": "ESP",
+      "pais_competicion": "Spain",
+      "cuota": 23.255,
+      "gii": 0.063,
+      "idh": 0.899,
+      "pib": 44816.863,
+      "educacion": 101.802,
+      "registros": 1728
+    },
+    {
+      "iso3": "EST",
+      "pais_competicion": "Estonia",
+      "cuota": 27.832,
+      "gii": 0.102,
+      "idh": 0.89,
+      "pib": 41211.432,
+      "educacion": 87.78,
+      "registros": 468
+    },
+    {
+      "iso3": "FIN",
+      "pais_competicion": "Finland",
+      "cuota": 29.166,
+      "gii": 0.039,
+      "idh": 0.936,
+      "pib": 55604.589,
+      "educacion": 104.654,
+      "registros": 3596
+    },
+    {
+      "iso3": "FRA",
+      "pais_competicion": "France",
+      "cuota": 22.096,
+      "gii": 0.085,
+      "idh": 0.902,
+      "pib": 51884.316,
+      "educacion": 75.449,
+      "registros": 3550
+    },
+    {
+      "iso3": "GBR",
+      "pais_competicion": "England",
+      "cuota": 32.954,
+      "gii": 0.11,
+      "idh": 0.929,
+      "pib": 51771.018,
+      "educacion": 75.737,
+      "registros": 8576
+    },
+    {
+      "iso3": "GBR",
+      "pais_competicion": "N.Ireland",
+      "cuota": 33.52,
+      "gii": 0.112,
+      "idh": 0.93,
+      "pib": 52143.917,
+      "educacion": 75.159,
+      "registros": 470
+    },
+    {
+      "iso3": "GBR",
+      "pais_competicion": "Scotland",
+      "cuota": 36.956,
+      "gii": 0.11,
+      "idh": 0.929,
+      "pib": 51771.018,
+      "educacion": 75.737,
+      "registros": 1741
+    },
+    {
+      "iso3": "GBR",
+      "pais_competicion": "UK",
+      "cuota": 35.341,
+      "gii": 0.112,
+      "idh": 0.93,
+      "pib": 52319.657,
+      "educacion": 75.195,
+      "registros": 3382
+    },
+    {
+      "iso3": "GBR",
+      "pais_competicion": "Wales",
+      "cuota": 28.725,
+      "gii": 0.102,
+      "idh": 0.933,
+      "pib": 53044.336,
+      "educacion": 81.674,
+      "registros": 425
+    },
+    {
+      "iso3": "HRV",
+      "pais_competicion": "Croatia",
+      "cuota": 24.077,
+      "gii": 0.121,
+      "idh": 0.86,
+      "pib": 34040.311,
+      "educacion": 85.384,
+      "registros": 442
+    },
+    {
+      "iso3": "HUN",
+      "pais_competicion": "Hungary",
+      "cuota": 26.036,
+      "gii": 0.248,
+      "idh": 0.847,
+      "pib": 35807.447,
+      "educacion": 60.596,
+      "registros": 1196
+    },
+    {
+      "iso3": "IND",
+      "pais_competicion": "India",
+      "cuota": 34.0,
+      "gii": 0.48,
+      "idh": 0.636,
+      "pib": 7536.338,
+      "educacion": 30.043,
+      "registros": 2806
+    },
+    {
+      "iso3": "IRL",
+      "pais_competicion": "Ireland",
+      "cuota": 37.27,
+      "gii": 0.083,
+      "idh": 0.938,
+      "pib": 97516.618,
+      "educacion": 82.114,
+      "registros": 3013
+    },
+    {
+      "iso3": "ISL",
+      "pais_competicion": "Iceland",
+      "cuota": 38.375,
+      "gii": 0.05,
+      "idh": 0.955,
+      "pib": 64332.41,
+      "educacion": 101.007,
+      "registros": 460
+    },
+    {
+      "iso3": "ITA",
+      "pais_competicion": "Italy",
+      "cuota": 27.826,
+      "gii": 0.063,
+      "idh": 0.893,
+      "pib": 48857.397,
+      "educacion": 77.144,
+      "registros": 2185
+    },
+    {
+      "iso3": "JPN",
+      "pais_competicion": "Japan",
+      "cuota": 20.527,
+      "gii": 0.093,
+      "idh": 0.917,
+      "pib": 45745.214,
+      "educacion": 61.523,
+      "registros": 1228
+    },
+    {
+      "iso3": "KAZ",
+      "pais_competicion": "Kazakhstan",
+      "cuota": 27.703,
+      "gii": 0.198,
+      "idh": 0.802,
+      "pib": 31958.469,
+      "educacion": 57.187,
+      "registros": 1610
+    },
+    {
+      "iso3": "LTU",
+      "pais_competicion": "Lithuania",
+      "cuota": 31.183,
+      "gii": 0.119,
+      "idh": 0.879,
+      "pib": 42169.087,
+      "educacion": 88.053,
+      "registros": 1147
+    },
+    {
+      "iso3": "MEX",
+      "pais_competicion": "Mexico",
+      "cuota": 30.41,
+      "gii": 0.36,
+      "idh": 0.773,
+      "pib": 21487.435,
+      "educacion": 45.545,
+      "registros": 458
+    },
+    {
+      "iso3": "MYS",
+      "pais_competicion": "Malaysia",
+      "cuota": 22.753,
+      "gii": 0.207,
+      "idh": 0.803,
+      "pib": 30713.578,
+      "educacion": 47.321,
+      "registros": 211
+    },
+    {
+      "iso3": "NLD",
+      "pais_competicion": "Netherlands",
+      "cuota": 29.586,
+      "gii": 0.028,
+      "idh": 0.938,
+      "pib": 66547.633,
+      "educacion": 89.99,
+      "registros": 1483
+    },
+    {
+      "iso3": "NOR",
+      "pais_competicion": "Norway",
+      "cuota": 34.115,
+      "gii": 0.022,
+      "idh": 0.96,
+      "pib": 90319.938,
+      "educacion": 104.709,
+      "registros": 4527
+    },
+    {
+      "iso3": "NZL",
+      "pais_competicion": "New Zealand",
+      "cuota": 37.554,
+      "gii": 0.104,
+      "idh": 0.936,
+      "pib": 46983.433,
+      "educacion": 96.621,
+      "registros": 3858
+    },
+    {
+      "iso3": "PHL",
+      "pais_competicion": "Philippines",
+      "cuota": 27.39,
+      "gii": 0.392,
+      "idh": 0.704,
+      "pib": 8868.405,
+      "educacion": 40.068,
+      "registros": 321
+    },
+    {
+      "iso3": "POL",
+      "pais_competicion": "Poland",
+      "cuota": 22.112,
+      "gii": 0.118,
+      "idh": 0.875,
+      "pib": 36966.214,
+      "educacion": 86.22,
+      "registros": 2813
+    },
+    {
+      "iso3": "ROU",
+      "pais_competicion": "Romania",
+      "cuota": 27.553,
+      "gii": 0.235,
+      "idh": 0.829,
+      "pib": 37004.799,
+      "educacion": 61.308,
+      "registros": 372
+    },
+    {
+      "iso3": "RUS",
+      "pais_competicion": "Russia",
+      "cuota": 22.272,
+      "gii": 0.184,
+      "idh": 0.827,
+      "pib": 36587.346,
+      "educacion": 78.221,
+      "registros": 23870
+    },
+    {
+      "iso3": "SRB",
+      "pais_competicion": "Serbia",
+      "cuota": 26.78,
+      "gii": 0.128,
+      "idh": 0.803,
+      "pib": 22315.846,
+      "educacion": 79.494,
+      "registros": 223
+    },
+    {
+      "iso3": "SVK",
+      "pais_competicion": "Slovakia",
+      "cuota": 14.72,
+      "gii": 0.187,
+      "idh": 0.858,
+      "pib": 37358.155,
+      "educacion": 59.651,
+      "registros": 418
+    },
+    {
+      "iso3": "SWE",
+      "pais_competicion": "Sweden",
+      "cuota": 32.069,
+      "gii": 0.029,
+      "idh": 0.944,
+      "pib": 60446.709,
+      "educacion": 95.033,
+      "registros": 3456
+    },
+    {
+      "iso3": "TUR",
+      "pais_competicion": "Turkey",
+      "cuota": 29.22,
+      "gii": 0.264,
+      "idh": 0.848,
+      "pib": 32813.179,
+      "educacion": 128.408,
+      "registros": 322
+    },
+    {
+      "iso3": "UKR",
+      "pais_competicion": "Ukraine",
+      "cuota": 21.762,
+      "gii": 0.199,
+      "idh": 0.762,
+      "pib": 16364.061,
+      "educacion": 84.342,
+      "registros": 3313
+    },
+    {
+      "iso3": "USA",
+      "pais_competicion": "USA",
+      "cuota": 36.675,
+      "gii": 0.198,
+      "idh": 0.927,
+      "pib": 68010.555,
+      "educacion": 101.418,
+      "registros": 275304
+    },
+    {
+      "iso3": "ZAF",
+      "pais_competicion": "South Africa",
+      "cuota": 30.787,
+      "gii": 0.412,
+      "idh": 0.724,
+      "pib": 14281.748,
+      "educacion": 25.709,
+      "registros": 1372
+    }
+  ],
+  "peso_usa_pct": 65.08,
+  "alometria": {
+    "exponente_b": 0.4853,
+    "ic95": [
+      0.4831,
+      0.4875
+    ],
+    "r2": 0.1835,
+    "factor_al_duplicar_peso": 1.4
+  },
+  "por_categoria_peso": {
+    "+84 kg": {
+      "n": 136526,
+      "total_mediano": 340.19,
+      "fuerza_rel_mediana": 3.426
+    },
+    "-47 kg": {
+      "n": 43590,
+      "total_mediano": 219.99,
+      "fuerza_rel_mediana": 4.936
+    },
+    "47-52 kg": {
+      "n": 80255,
+      "total_mediano": 251.74,
+      "fuerza_rel_mediana": 5.035
+    },
+    "52-57 kg": {
+      "n": 106140,
+      "total_mediano": 272.16,
+      "fuerza_rel_mediana": 4.935
+    },
+    "57-63 kg": {
+      "n": 131842,
+      "total_mediano": 285.76,
+      "fuerza_rel_mediana": 4.77
+    },
+    "63-69 kg": {
+      "n": 124599,
+      "total_mediano": 303.91,
+      "fuerza_rel_mediana": 4.591
+    },
+    "69-76 kg": {
+      "n": 116965,
+      "total_mediano": 319.78,
+      "fuerza_rel_mediana": 4.397
+    },
+    "76-84 kg": {
+      "n": 85379,
+      "total_mediano": 326.59,
+      "fuerza_rel_mediana": 4.065
+    }
+  },
+  "categoria_mas_eficiente": "47-52 kg",
+  "edad": {
+    "pico_anios": 24,
+    "dots_pico": 353.65,
+    "meseta": [
+      22,
+      28
+    ],
+    "n_con_edad": 474759
+  },
+  "por_grupo_edad": {
+    "18-23 (junior)": {
+      "n": 104533,
+      "dots_mediano": 342.68,
+      "total_mediano": 320.0,
+      "pct_podio": 76.3
+    },
+    "24-30": {
+      "n": 111848,
+      "dots_mediano": 349.37,
+      "total_mediano": 335.0,
+      "pct_podio": 78.5
+    },
+    "31-40": {
+      "n": 92609,
+      "dots_mediano": 340.18,
+      "total_mediano": 335.0,
+      "pct_podio": 82.1
+    },
+    "41-50 (master)": {
+      "n": 55605,
+      "dots_mediano": 326.01,
+      "total_mediano": 322.05,
+      "pct_podio": 88.2
+    },
+    "51-60 (master)": {
+      "n": 24153,
+      "dots_mediano": 298.61,
+      "total_mediano": 292.5,
+      "pct_podio": 89.3
+    },
+    "60+ (master)": {
+      "n": 10747,
+      "dots_mediano": 254.63,
+      "total_mediano": 242.5,
+      "pct_podio": 92.4
+    },
+    "Sub-18": {
+      "n": 75261,
+      "dots_mediano": 299.16,
+      "total_mediano": 275.0,
+      "pct_podio": 75.3
+    }
+  },
+  "prueba_edad": {
+    "kruskal_H": 37635.95,
+    "p": 0.0
+  },
+  "reparto_movimientos": {
+    "pct_sentadilla": {
+      "mean": 37.36,
+      "std": 3.49,
+      "25%": 35.29,
+      "50%": 37.5,
+      "75%": 39.64
+    },
+    "pct_banca": {
+      "mean": 20.29,
+      "std": 2.78,
+      "25%": 18.45,
+      "50%": 20.12,
+      "75%": 21.91
+    },
+    "pct_peso_muerto": {
+      "mean": 42.35,
+      "std": 3.83,
+      "25%": 40.0,
+      "50%": 42.36,
+      "75%": 44.78
+    }
+  },
+  "arquetipos": {
+    "Dominante en banca": {
+      "n": 239325,
+      "total_mediano": 315.25,
+      "dots_mediano": 327.79,
+      "fuerza_rel": 4.653,
+      "pct_podio": 72.5,
+      "pct_del_total": 29.0
+    },
+    "Dominante en peso muerto": {
+      "n": 297977,
+      "total_mediano": 275.0,
+      "dots_mediano": 293.02,
+      "fuerza_rel": 4.258,
+      "pct_podio": 71.9,
+      "pct_del_total": 36.1
+    },
+    "Dominante en sentadilla": {
+      "n": 287994,
+      "total_mediano": 307.5,
+      "dots_mediano": 317.88,
+      "fuerza_rel": 4.479,
+      "pct_podio": 64.1,
+      "pct_del_total": 34.9
+    }
+  },
+  "perfil_vs_podio": {
+    "chi2": 5775.22,
+    "p": 0.0,
+    "v_cramer": 0.0837
+  },
+  "por_equipamiento": {
+    "Multi-ply": {
+      "n": 7230,
+      "total_mediano": 392.36,
+      "dots_mediano": 407.8,
+      "fuerza_rel": 5.83,
+      "peso_mediano": 67.0
+    },
+    "Wraps": {
+      "n": 58174,
+      "total_mediano": 317.5,
+      "dots_mediano": 325.13,
+      "fuerza_rel": 4.58,
+      "peso_mediano": 67.3
+    },
+    "Raw": {
+      "n": 373115,
+      "total_mediano": 306.17,
+      "dots_mediano": 317.83,
+      "fuerza_rel": 4.51,
+      "peso_mediano": 66.84
+    },
+    "Single-ply": {
+      "n": 247656,
+      "total_mediano": 288.03,
+      "dots_mediano": 309.95,
+      "fuerza_rel": 4.5,
+      "peso_mediano": 62.4
+    },
+    "Unlimited": {
+      "n": 139121,
+      "total_mediano": 272.16,
+      "dots_mediano": 287.27,
+      "fuerza_rel": 4.08,
+      "peso_mediano": 65.77
+    }
+  },
+  "equipamiento": {
+    "dots_equipped": 301.7,
+    "dots_raw": 318.76,
+    "ventaja_pct": -5.35,
+    "t_welch": -53.04,
+    "p_welch": 0.0,
+    "p_mannwhitney": 0.0,
+    "d_cohen": -0.1176
+  },
+  "equipamiento_intra_atleta": {
+    "n_atletas": 14051,
+    "frel_equipada": 4.659,
+    "frel_sin_equipar": 4.293,
+    "diferencia_mediana": 0.392,
+    "ventaja_pct": 9.13,
+    "wilcoxon_p": 0.0
+  },
+  "equipamiento_por_ambito": [
+    {
+      "ambito": "Federacion independiente",
+      "frel_equipada": 4.088,
+      "frel_sin_equipar": 4.276,
+      "diferencia_pct": -4.4,
+      "p": 0.0
+    },
+    {
+      "ambito": "Internacional (IPF)",
+      "frel_equipada": 5.337,
+      "frel_sin_equipar": 4.659,
+      "diferencia_pct": 14.55,
+      "p": 0.0
+    },
+    {
+      "ambito": "Otra federacion internacional",
+      "frel_equipada": 5.548,
+      "frel_sin_equipar": 4.502,
+      "diferencia_pct": 23.23,
+      "p": 0.0
+    }
+  ],
+  "trayectoria": {
+    "mediana_competiciones": 2.0,
+    "media_competiciones": 3.63,
+    "max_competiciones": 177,
+    "pct_una_sola": 40.34,
+    "pct_diez_o_mas": 8.13
+  },
+  "progresion": {
+    "1": {
+      "n": 227570,
+      "dots": 277.14,
+      "total": 262.5,
+      "mejora": NaN,
+      "pct_record": 0.0
+    },
+    "2": {
+      "n": 135779,
+      "dots": 294.89,
+      "total": 280.0,
+      "mejora": 15.9,
+      "pct_record": 78.1
+    },
+    "3": {
+      "n": 94951,
+      "dots": 307.14,
+      "total": 292.57,
+      "mejora": 11.3,
+      "pct_record": 71.3
+    },
+    "4": {
+      "n": 70430,
+      "dots": 317.02,
+      "total": 303.91,
+      "mejora": 8.5,
+      "pct_record": 62.3
+    },
+    "5": {
+      "n": 53654,
+      "dots": 325.58,
+      "total": 312.5,
+      "mejora": 7.5,
+      "pct_record": 57.1
+    },
+    "6": {
+      "n": 42047,
+      "dots": 331.57,
+      "total": 317.51,
+      "mejora": 6.8,
+      "pct_record": 53.2
+    },
+    "7": {
+      "n": 33673,
+      "dots": 338.04,
+      "total": 325.0,
+      "mejora": 6.8,
+      "pct_record": 51.1
+    },
+    "8": {
+      "n": 27587,
+      "dots": 343.14,
+      "total": 331.12,
+      "mejora": 5.0,
+      "pct_record": 47.4
+    },
+    "9": {
+      "n": 22481,
+      "dots": 348.39,
+      "total": 335.66,
+      "mejora": 5.0,
+      "pct_record": 45.3
+    },
+    "10": {
+      "n": 18492,
+      "dots": 353.5,
+      "total": 340.0,
+      "mejora": 4.5,
+      "pct_record": 42.6
+    },
+    "11": {
+      "n": 15272,
+      "dots": 358.41,
+      "total": 345.0,
+      "mejora": 4.5,
+      "pct_record": 40.5
+    },
+    "12": {
+      "n": 12723,
+      "dots": 362.81,
+      "total": 349.27,
+      "mejora": 4.5,
+      "pct_record": 38.4
+    },
+    "13": {
+      "n": 10571,
+      "dots": 366.7,
+      "total": 353.8,
+      "mejora": 4.5,
+      "pct_record": 37.2
+    },
+    "14": {
+      "n": 8832,
+      "dots": 372.0,
+      "total": 358.34,
+      "mejora": 4.5,
+      "pct_record": 36.3
+    },
+    "15": {
+      "n": 7342,
+      "dots": 375.53,
+      "total": 362.87,
+      "mejora": 4.5,
+      "pct_record": 34.5
+    },
+    "16": {
+      "n": 6074,
+      "dots": 380.13,
+      "total": 365.14,
+      "mejora": 3.0,
+      "pct_record": 32.9
+    },
+    "17": {
+      "n": 5084,
+      "dots": 383.78,
+      "total": 371.48,
+      "mejora": 2.5,
+      "pct_record": 30.1
+    },
+    "18": {
+      "n": 4229,
+      "dots": 386.17,
+      "total": 374.21,
+      "mejora": 2.5,
+      "pct_record": 29.7
+    },
+    "19": {
+      "n": 3538,
+      "dots": 389.92,
+      "total": 377.5,
+      "mejora": 2.5,
+      "pct_record": 27.2
+    },
+    "20": {
+      "n": 2949,
+      "dots": 395.4,
+      "total": 381.02,
+      "mejora": 2.5,
+      "pct_record": 26.6
+    }
+  },
+  "progresion_decreciente": {
+    "spearman": -0.2329,
+    "p": 0.0,
+    "mejora_mediana_kg": 9.1
+  },
+  "brecha_genero": {
+    "metrica": "fuerza relativa (total/peso corporal)",
+    "nota": "DOTS y Wilks no son validos entre sexos: llevan coeficientes distintos por sexo",
+    "ratio_frel_inicio": 0.7723,
+    "ratio_frel_fin": 0.7329,
+    "ratio_total_inicio": 0.5527,
+    "ratio_total_fin": 0.5779,
+    "anio_inicio": 1990,
+    "anio_fin": 2025,
+    "pendiente_anual_pp": -0.174,
+    "r2": 0.2215,
+    "p": 0.003766896591068318,
+    "conclusion": "se amplia"
+  },
+  "antidopaje": {
+    "Control declarado": {
+      "n": 709981,
+      "dots_mediano": 308.69,
+      "total_mediano": 294.84,
+      "fuerza_rel": 4.41
+    },
+    "Control no declarado": {
+      "n": 115315,
+      "dots_mediano": 325.48,
+      "total_mediano": 315.0,
+      "fuerza_rel": 4.626
+    }
+  },
+  "antidopaje_controlado": [
+    {
+      "modalidad": "Sin equipamiento (Raw)",
+      "frel_control_declarado": 4.507,
+      "frel_control_no_declarado": 4.549,
+      "diferencia_pct": 0.93,
+      "p": 8.67147043333552e-50,
+      "n_declarado": 336996,
+      "n_no_declarado": 94293
+    },
+    {
+      "modalidad": "Con equipamiento (Equipped)",
+      "frel_control_declarado": 4.31,
+      "frel_control_no_declarado": 5.023,
+      "diferencia_pct": 16.54,
+      "p": 0.0,
+      "n_declarado": 372985,
+      "n_no_declarado": 21022
+    }
+  ],
+  "matriz_correlaciones": {
+    "total_kg": {
+      "total_kg": 1.0,
+      "fuerza_relativa": 0.5904,
+      "puntos_dots": 0.8571,
+      "peso_corporal_kg": 0.4265,
+      "edad": 0.1044,
+      "n_competicion": 0.3961,
+      "tasa_acierto_intentos": 0.0658,
+      "pct_participacion_femenina": -0.0271,
+      "indice_desigualdad_gen": -0.1221,
+      "idh": 0.0504,
+      "pib_per_capita_ppa": -0.0746,
+      "tasa_actividad_femenina": 0.0422
+    },
+    "fuerza_relativa": {
+      "total_kg": 0.5904,
+      "fuerza_relativa": 1.0,
+      "puntos_dots": 0.9116,
+      "peso_corporal_kg": -0.4164,
+      "edad": -0.0406,
+      "n_competicion": 0.3537,
+      "tasa_acierto_intentos": -0.022,
+      "pct_participacion_femenina": -0.1633,
+      "indice_desigualdad_gen": -0.0484,
+      "idh": -0.0907,
+      "pib_per_capita_ppa": -0.2015,
+      "tasa_actividad_femenina": -0.0597
+    },
+    "puntos_dots": {
+      "total_kg": 0.8571,
+      "fuerza_relativa": 0.9116,
+      "puntos_dots": 1.0,
+      "peso_corporal_kg": -0.0586,
+      "edad": 0.0211,
+      "n_competicion": 0.4205,
+      "tasa_acierto_intentos": 0.0171,
+      "pct_participacion_femenina": -0.1125,
+      "indice_desigualdad_gen": -0.0867,
+      "idh": -0.0338,
+      "pib_per_capita_ppa": -0.1607,
+      "tasa_actividad_femenina": -0.0171
+    },
+    "peso_corporal_kg": {
+      "total_kg": 0.4265,
+      "fuerza_relativa": -0.4164,
+      "puntos_dots": -0.0586,
+      "peso_corporal_kg": 1.0,
+      "edad": 0.1897,
+      "n_competicion": 0.0348,
+      "tasa_acierto_intentos": 0.1014,
+      "pct_participacion_femenina": 0.149,
+      "indice_desigualdad_gen": -0.0877,
+      "idh": 0.166,
+      "pib_per_capita_ppa": 0.1424,
+      "tasa_actividad_femenina": 0.1201
+    },
+    "edad": {
+      "total_kg": 0.1044,
+      "fuerza_relativa": -0.0406,
+      "puntos_dots": 0.0211,
+      "peso_corporal_kg": 0.1897,
+      "edad": 1.0,
+      "n_competicion": 0.1431,
+      "tasa_acierto_intentos": 0.0269,
+      "pct_participacion_femenina": 0.0957,
+      "indice_desigualdad_gen": -0.1212,
+      "idh": 0.1515,
+      "pib_per_capita_ppa": 0.0675,
+      "tasa_actividad_femenina": 0.116
+    },
+    "n_competicion": {
+      "total_kg": 0.3961,
+      "fuerza_relativa": 0.3537,
+      "puntos_dots": 0.4205,
+      "peso_corporal_kg": 0.0348,
+      "edad": 0.1431,
+      "n_competicion": 1.0,
+      "tasa_acierto_intentos": -0.0077,
+      "pct_participacion_femenina": 0.1381,
+      "indice_desigualdad_gen": -0.0882,
+      "idh": 0.0821,
+      "pib_per_capita_ppa": 0.1346,
+      "tasa_actividad_femenina": 0.0443
+    },
+    "tasa_acierto_intentos": {
+      "total_kg": 0.0658,
+      "fuerza_relativa": -0.022,
+      "puntos_dots": 0.0171,
+      "peso_corporal_kg": 0.1014,
+      "edad": 0.0269,
+      "n_competicion": -0.0077,
+      "tasa_acierto_intentos": 1.0,
+      "pct_participacion_femenina": 0.1094,
+      "indice_desigualdad_gen": -0.0822,
+      "idh": 0.1367,
+      "pib_per_capita_ppa": 0.1064,
+      "tasa_actividad_femenina": 0.0936
+    },
+    "pct_participacion_femenina": {
+      "total_kg": -0.0271,
+      "fuerza_relativa": -0.1633,
+      "puntos_dots": -0.1125,
+      "peso_corporal_kg": 0.149,
+      "edad": 0.0957,
+      "n_competicion": 0.1381,
+      "tasa_acierto_intentos": 0.1094,
+      "pct_participacion_femenina": 1.0,
+      "indice_desigualdad_gen": -0.2818,
+      "idh": 0.4384,
+      "pib_per_capita_ppa": 0.766,
+      "tasa_actividad_femenina": 0.3066
+    },
+    "indice_desigualdad_gen": {
+      "total_kg": -0.1221,
+      "fuerza_relativa": -0.0484,
+      "puntos_dots": -0.0867,
+      "peso_corporal_kg": -0.0877,
+      "edad": -0.1212,
+      "n_competicion": -0.0882,
+      "tasa_acierto_intentos": -0.0822,
+      "pct_participacion_femenina": -0.2818,
+      "indice_desigualdad_gen": 1.0,
+      "idh": -0.4735,
+      "pib_per_capita_ppa": -0.2103,
+      "tasa_actividad_femenina": -0.3658
+    },
+    "idh": {
+      "total_kg": 0.0504,
+      "fuerza_relativa": -0.0907,
+      "puntos_dots": -0.0338,
+      "peso_corporal_kg": 0.166,
+      "edad": 0.1515,
+      "n_competicion": 0.0821,
+      "tasa_acierto_intentos": 0.1367,
+      "pct_participacion_femenina": 0.4384,
+      "indice_desigualdad_gen": -0.4735,
+      "idh": 1.0,
+      "pib_per_capita_ppa": 0.4432,
+      "tasa_actividad_femenina": 0.6601
+    },
+    "pib_per_capita_ppa": {
+      "total_kg": -0.0746,
+      "fuerza_relativa": -0.2015,
+      "puntos_dots": -0.1607,
+      "peso_corporal_kg": 0.1424,
+      "edad": 0.0675,
+      "n_competicion": 0.1346,
+      "tasa_acierto_intentos": 0.1064,
+      "pct_participacion_femenina": 0.766,
+      "indice_desigualdad_gen": -0.2103,
+      "idh": 0.4432,
+      "pib_per_capita_ppa": 1.0,
+      "tasa_actividad_femenina": 0.3241
+    },
+    "tasa_actividad_femenina": {
+      "total_kg": 0.0422,
+      "fuerza_relativa": -0.0597,
+      "puntos_dots": -0.0171,
+      "peso_corporal_kg": 0.1201,
+      "edad": 0.116,
+      "n_competicion": 0.0443,
+      "tasa_acierto_intentos": 0.0936,
+      "pct_participacion_femenina": 0.3066,
+      "indice_desigualdad_gen": -0.3658,
+      "idh": 0.6601,
+      "pib_per_capita_ppa": 0.3241,
+      "tasa_actividad_femenina": 1.0
+    }
+  }
+}

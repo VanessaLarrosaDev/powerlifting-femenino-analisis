@@ -1,0 +1,232 @@
+{
+  "preparacion": {
+    "n_total": 825296,
+    "n_entrenamiento": 519818,
+    "n_prueba": 305478,
+    "anio_corte": 2022,
+    "n_predictoras_perfil": 15,
+    "n_predictoras_historial": 5,
+    "n_excluidas_por_fuga": 39,
+    "media_objetivo_entrenamiento": 301.41,
+    "media_objetivo_prueba": 308.14
+  },
+  "aportacion_historial_pct": 63.53,
+  "comparacion_modelos": [
+    {
+      "modelo": "1. Base (media)",
+      "mae_kg": 64.674,
+      "rmse_kg": 82.275,
+      "r2": -0.0067,
+      "error_pct": 22.963,
+      "segundos": 0.1
+    },
+    {
+      "modelo": "2. Lineal (Ridge)",
+      "mae_kg": 52.156,
+      "rmse_kg": 67.532,
+      "r2": 0.3217,
+      "error_pct": 17.963,
+      "segundos": 4.1
+    },
+    {
+      "modelo": "3. Perfil (Gradient Boost)",
+      "mae_kg": 42.526,
+      "rmse_kg": 54.648,
+      "r2": 0.5559,
+      "error_pct": 14.92,
+      "segundos": 7.8
+    },
+    {
+      "modelo": "3b. Perfil (mismas filas)",
+      "mae_kg": 42.791,
+      "rmse_kg": 55.008,
+      "r2": 0.5532,
+      "error_pct": 14.387,
+      "segundos": 0.0
+    },
+    {
+      "modelo": "4. Perfil + historial",
+      "mae_kg": 15.608,
+      "rmse_kg": 24.548,
+      "r2": 0.911,
+      "error_pct": 5.266,
+      "segundos": 5.1
+    }
+  ],
+  "importancia_variables": [
+    {
+      "variable": "total_anterior",
+      "importancia_kg": 46.0207,
+      "desviacion": 0.3659,
+      "etiqueta": "Total en la competición anterior",
+      "pct_del_total": 66.8
+    },
+    {
+      "variable": "mejor_total_previo",
+      "importancia_kg": 10.5218,
+      "desviacion": 0.0647,
+      "etiqueta": "Mejor total previo",
+      "pct_del_total": 15.3
+    },
+    {
+      "variable": "peso_corporal_kg",
+      "importancia_kg": 2.753,
+      "desviacion": 0.0546,
+      "etiqueta": "Peso corporal",
+      "pct_del_total": 4.0
+    },
+    {
+      "variable": "edad",
+      "importancia_kg": 2.3315,
+      "desviacion": 0.0276,
+      "etiqueta": "Edad",
+      "pct_del_total": 3.4
+    },
+    {
+      "variable": "equipamiento",
+      "importancia_kg": 2.0105,
+      "desviacion": 0.0569,
+      "etiqueta": "Equipamiento",
+      "pct_del_total": 2.9
+    },
+    {
+      "variable": "dias_desde_anterior",
+      "importancia_kg": 1.9479,
+      "desviacion": 0.0553,
+      "etiqueta": "Días desde la anterior",
+      "pct_del_total": 2.8
+    },
+    {
+      "variable": "n_competicion",
+      "importancia_kg": 1.6219,
+      "desviacion": 0.032,
+      "etiqueta": "Nº de competición",
+      "pct_del_total": 2.4
+    },
+    {
+      "variable": "total_competiciones_atleta",
+      "importancia_kg": 0.732,
+      "desviacion": 0.0194,
+      "etiqueta": "Competiciones totales de la atleta",
+      "pct_del_total": 1.1
+    },
+    {
+      "variable": "anios_trayectoria",
+      "importancia_kg": 0.4771,
+      "desviacion": 0.01,
+      "etiqueta": "Años de trayectoria",
+      "pct_del_total": 0.7
+    },
+    {
+      "variable": "control_antidoping",
+      "importancia_kg": 0.1663,
+      "desviacion": 0.0141,
+      "etiqueta": "Control antidopaje declarado",
+      "pct_del_total": 0.2
+    },
+    {
+      "variable": "ambito_federacion",
+      "importancia_kg": 0.1222,
+      "desviacion": 0.0134,
+      "etiqueta": "Ámbito federativo",
+      "pct_del_total": 0.2
+    },
+    {
+      "variable": "iso3",
+      "importancia_kg": 0.1128,
+      "desviacion": 0.0138,
+      "etiqueta": "País",
+      "pct_del_total": 0.2
+    },
+    {
+      "variable": "tasa_actividad_femenina",
+      "importancia_kg": 0.0119,
+      "desviacion": 0.002,
+      "etiqueta": "Actividad laboral femenina",
+      "pct_del_total": 0.0
+    },
+    {
+      "variable": "idh",
+      "importancia_kg": 0.0115,
+      "desviacion": 0.0015,
+      "etiqueta": "IDH del país",
+      "pct_del_total": 0.0
+    },
+    {
+      "variable": "pib_per_capita_ppa",
+      "importancia_kg": 0.0043,
+      "desviacion": 0.0074,
+      "etiqueta": "PIB per cápita del país",
+      "pct_del_total": 0.0
+    },
+    {
+      "variable": "indice_desigualdad_gen",
+      "importancia_kg": 0.004,
+      "desviacion": 0.0015,
+      "etiqueta": "Desigualdad de género",
+      "pct_del_total": 0.0
+    },
+    {
+      "variable": "esperanza_vida_femenina",
+      "importancia_kg": 0.0012,
+      "desviacion": 0.0038,
+      "etiqueta": "Esperanza de vida femenina",
+      "pct_del_total": 0.0
+    },
+    {
+      "variable": "region",
+      "importancia_kg": 0.001,
+      "desviacion": 0.0005,
+      "etiqueta": "Región",
+      "pct_del_total": 0.0
+    },
+    {
+      "variable": "anio",
+      "importancia_kg": 0.0,
+      "desviacion": 0.0,
+      "etiqueta": "Año",
+      "pct_del_total": 0.0
+    },
+    {
+      "variable": "tipo_equipamiento",
+      "importancia_kg": -0.0141,
+      "desviacion": 0.0033,
+      "etiqueta": "Modalidad (con/sin equipo)",
+      "pct_del_total": -0.0
+    }
+  ],
+  "diagnostico": {
+    "residuo_medio": 0.8504,
+    "residuo_std": 24.533,
+    "residuo_mediano": 1.3604,
+    "pct_dentro_10kg": 48.82,
+    "pct_dentro_20kg": 75.37
+  },
+  "error_por_tramo": {
+    "<200 kg": {
+      "n": 14039.0,
+      "mae": 21.89,
+      "sesgo": 18.22
+    },
+    "200-300": {
+      "n": 86331.0,
+      "mae": 13.91,
+      "sesgo": 4.7
+    },
+    "300-400": {
+      "n": 95613.0,
+      "mae": 14.22,
+      "sesgo": -3.74
+    },
+    "400-500": {
+      "n": 31225.0,
+      "mae": 19.09,
+      "sesgo": -12.02
+    },
+    ">500 kg": {
+      "n": 5201.0,
+      "mae": 31.52,
+      "sesgo": -24.29
+    }
+  }
+}

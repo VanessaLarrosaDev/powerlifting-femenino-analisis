@@ -1,0 +1,84 @@
+columna,tipo,nulos_pct,valores_unicos,ejemplo
+id_atleta,str,0.0,227570,0dafcd18be77
+nombre_atleta,string,0.0,227570,Kathy Melcher
+fecha,datetime64[us],0.0,6866,1975-09-05 00:00:00
+anio,int32,0.0,51,1975
+mes,int32,0.0,12,9
+trimestre,int32,0.0,4,3
+decada,str,0.0,6,1970s
+pais_competicion,str,0.0,120,USA
+iso3,str,0.0,114,USA
+region,str,0.0,6,America del Norte
+region_competicion,str,21.6,242,CA
+ciudad_competicion,string,16.35,6856,Glendale
+nombre_competicion,string,0.0,24041,First All Women's Powerlifting Contest
+federacion,string,0.0,400,AAU
+federacion_matriz,str,0.0,25,Independiente
+ambito_federacion,str,0.0,3,Federacion independiente
+division,string,0.14,2191,Open
+equipamiento,str,0.0,5,Wraps
+tipo_equipamiento,str,0.0,2,Sin equipamiento (Raw)
+control_antidoping,str,0.0,2,Control no declarado
+edad,float64,42.47,155,29.0
+grupo_edad,category,42.47,7,24-30
+peso_corporal_kg,float64,0.0,9913,56.0
+categoria_peso,category,0.0,8,52-57 kg
+categoria_peso_oficial,str,0.76,146,56
+total_kg,float64,0.0,3063,199.58
+fuerza_relativa,float64,0.0,8624,3.564
+puntos_dots,float64,0.0,44890,231.34
+puntos_wilks,float64,0.0,44837,234.83
+puntos_goodlift,float64,0.06,10302,47.45
+kg_sentadilla,float64,0.0,1217,63.5
+kg_banca,float64,0.0,866,40.82
+kg_peso_muerto,float64,0.0,1097,95.25
+pct_sentadilla,float64,0.0,3108,31.82
+pct_banca,float64,0.0,2612,20.45
+pct_peso_muerto,float64,0.0,3254,47.73
+rel_sentadilla,float64,0.0,3947,1.134
+rel_banca,float64,0.0,2588,0.729
+rel_peso_muerto,float64,0.0,3572,1.701
+ratio_banca_sentadilla,float64,0.0,1291,0.643
+ratio_muerto_sentadilla,float64,0.0,2008,1.5
+perfil_fuerza,str,0.0,3,Dominante en peso muerto
+intentos_registrados,int64,0.0,10,0
+intentos_validos,int64,0.0,10,0
+tasa_acierto_intentos,float64,53.29,18,42.9
+posicion,float64,0.38,79,2.0
+es_podio,bool,0.0,2,True
+es_primera,bool,0.0,2,False
+n_competicion,int64,0.0,177,1
+es_debut,bool,0.0,2,True
+total_anterior,float64,27.57,2716,167.5
+mejor_total_previo,float64,27.57,2490,167.5
+mejora_kg,float64,27.57,3654,20.0
+mejora_pct,float64,27.57,11570,11.94
+dias_desde_anterior,float64,27.57,3836,47.0
+es_record_personal,bool,0.0,2,False
+total_competiciones_atleta,int64,0.0,87,1
+anios_trayectoria,float64,0.0,5554,0.0
+n_mujeres_pais_anio,int64,0.0,584,8
+n_hombres_pais_anio,int64,0.0,948,68
+pct_participacion_femenina,float64,0.0,1317,10.53
+brecha_total_pct,float64,0.02,10198,-62.86
+brecha_fuerza_rel_pct,float64,0.02,13749,-48.78
+fuerza_rel_p50_m,float64,0.02,140,6.958
+pib_per_capita_ppa,float64,0.14,1295,44384.21
+pib_per_capita_miles,float64,0.14,1198,44.38
+grupo_renta,category,0.14,4,Renta media-alta
+poblacion_total,float64,0.11,1305,249623000.0
+tasa_actividad_femenina,float64,0.18,1244,55.998
+matricula_superior_femenina,float64,0.16,962,79.956
+esperanza_vida_femenina,float64,0.11,615,78.8
+gasto_sanitario_pc,float64,0.32,1041,4548.555
+poblacion_urbana_pct,float64,0.11,1254,75.269
+idh,float64,0.23,312,0.875
+idh_femenino,float64,0.23,307,0.872
+idh_masculino,float64,0.23,317,0.874
+brecha_idh_genero,float64,0.23,153,0.998
+indice_desigualdad_gen,float64,0.33,401,0.288
+grupo_desigualdad,category,0.33,4,Desigualdad media
+indice_desarrollo_gen,float64,0.23,155,0.998
+anios_escolar_esp_f,float64,0.23,991,15.973
+ingreso_nacional_pc_f,float64,0.23,1130,30607.715
+indicadores_imputados,bool,0.0,2,True

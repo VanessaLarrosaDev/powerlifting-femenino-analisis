@@ -1,0 +1,182 @@
+// ===========================================================================
+// MEDIDAS DAX DEL DASHBOARD
+// Proyecto final · Powerlifting femenino mundial
+//
+// Cómo usarlas: en Power BI, con la tabla "hechos" seleccionada, pulsa
+// "Nueva medida" y pega el cuerpo de cada medida (sin la línea de comentario).
+// Repite para cada una. Al terminar, dale formato a cada medida en la pestaña
+// "Herramientas de medidas".
+//
+// Recomendación: crea una tabla vacía para agruparlas todas.
+//   Modelado → Nueva tabla →   _Medidas = {1}
+//   Luego oculta su única columna y crea las medidas dentro de esa tabla.
+// ===========================================================================
+
+
+// ---------------------------------------------------------------------------
+// VOLUMEN Y PARTICIPACIÓN
+// Formato: número entero, con separador de miles
+// ---------------------------------------------------------------------------
+
+Participaciones = COUNTROWS(hechos)
+
+Atletas únicas = DISTINCTCOUNT(hechos[id_atleta])
+
+Competiciones = DISTINCTCOUNT(hechos[nombre_competicion])
+
+Países = DISTINCTCOUNT(hechos[iso3])
+
+
+// ---------------------------------------------------------------------------
+// RENDIMIENTO
+// Formato: número decimal, 1 decimal (3 para la fuerza relativa)
+//
+// Se usa MEDIANA y no promedio: las distribuciones de rendimiento son
+// asimétricas (comprobado en el análisis), así que la media está inflada por
+// la cola de atletas de élite. La mediana describe mejor el nivel típico.
+// ---------------------------------------------------------------------------
+
+Total mediano kg = MEDIAN(hechos[total_kg])
+
+DOTS mediano = MEDIAN(hechos[puntos_dots])
+
+Fuerza relativa mediana = MEDIAN(hechos[fuerza_relativa])
+
+Mejor marca kg = MAX(hechos[total_kg])
+
+Peso corporal mediano = MEDIAN(hechos[peso_corporal_kg])
+
+Edad mediana = MEDIAN(hechos[edad])
+
+
+// ---------------------------------------------------------------------------
+// CRECIMIENTO
+// Requiere que dim_calendario esté MARCADA COMO TABLA DE FECHAS.
+// Sin eso, estas medidas devuelven resultados incorrectos.
+// Formato: porcentaje, 1 decimal
+// ---------------------------------------------------------------------------
+
+Atletas año anterior =
+CALCULATE(
+    [Atletas únicas],
+    SAMEPERIODLASTYEAR(dim_calendario[fecha])
+)
+
+Crecimiento atletas % =
+VAR Actual = [Atletas únicas]
+VAR Anterior = [Atletas año anterior]
+RETURN
+    DIVIDE(Actual - Anterior, Anterior)
+
+Participaciones acumuladas =
+CALCULATE(
+    [Participaciones],
+    FILTER(
+        ALLSELECTED(dim_calendario[fecha]),
+        dim_calendario[fecha] <= MAX(dim_calendario[fecha])
+    )
+)
+
+
+// ---------------------------------------------------------------------------
+// RESULTADO DEPORTIVO Y TRAYECTORIA
+// Formato: porcentaje, 1 decimal (kg en decimal)
+// ---------------------------------------------------------------------------
+
+% Podio =
+DIVIDE(
+    CALCULATE(COUNTROWS(hechos), hechos[es_podio] = 1),
+    [Participaciones]
+)
+
+% Debuts =
+DIVIDE(
+    CALCULATE(COUNTROWS(hechos), hechos[es_debut] = 1),
+    [Participaciones]
+)
+
+% Récord personal =
+DIVIDE(
+    CALCULATE(COUNTROWS(hechos), hechos[es_record_personal] = 1),
+    [Participaciones]
+)
+
+Mejora mediana kg = MEDIAN(hechos[mejora_kg])
+
+
+// ---------------------------------------------------------------------------
+// RETENCIÓN
+// Mide el problema real del deporte: el 40% de las atletas compite una sola vez.
+// Formato: porcentaje, 1 decimal
+// ---------------------------------------------------------------------------
+
+Tasa de retención =
+VAR Todas = DISTINCTCOUNT(dim_atleta[id_atleta])
+VAR Repiten =
+    CALCULATE(
+        DISTINCTCOUNT(dim_atleta[id_atleta]),
+        dim_atleta[n_competiciones] >= 2
+    )
+RETURN
+    DIVIDE(Repiten, Todas)
+
+Atletas fieles =
+CALCULATE(
+    DISTINCTCOUNT(dim_atleta[id_atleta]),
+    dim_atleta[n_competiciones] >= 10
+)
+
+Competiciones por atleta =
+DIVIDE([Participaciones], [Atletas únicas])
+
+
+// ---------------------------------------------------------------------------
+// CONTEXTO SOCIOECONÓMICO
+// Vienen de la dimensión de país, no de la tabla de hechos: son atributos del
+// país y el año, no de la participación individual.
+// ---------------------------------------------------------------------------
+
+// La cuota se calcula agregando personas, no promediando porcentajes.
+// Un AVERAGE de pct_participacion_femenina haria media simple entre paises, y
+// entonces una competicion exclusivamente femenina (cuota del 100%) pesaria lo
+// mismo que Estados Unidos entero. Formato: porcentaje, 1 decimal.
+Cuota femenina % =
+DIVIDE(
+    SUM(dim_pais_anio[n_mujeres_pais_anio]),
+    SUM(dim_pais_anio[n_mujeres_pais_anio]) + SUM(dim_pais_anio[n_hombres_pais_anio])
+)
+
+GII medio = AVERAGE(dim_pais_anio[indice_desigualdad_gen])
+
+IDH medio = AVERAGE(dim_pais_anio[idh])
+
+PIB per cápita medio = AVERAGE(dim_pais_anio[pib_per_capita_ppa])
+
+
+// ---------------------------------------------------------------------------
+// BRECHA RESPECTO A LOS HOMBRES
+//
+// Importante: usar brecha_fuerza_rel_pct y no los puntos DOTS.
+// DOTS y Wilks aplican coeficientes DISTINTOS a hombres y mujeres, para
+// permitir comparaciones DENTRO de cada sexo. Usarlos entre sexos da el
+// resultado absurdo de que las mujeres levantan más. La métrica válida es la
+// fuerza relativa (total ÷ peso corporal), que no lleva ajuste por sexo.
+//
+// Formato: porcentaje, 1 decimal
+// ---------------------------------------------------------------------------
+
+Brecha vs hombres % = MEDIAN(hechos[brecha_fuerza_rel_pct])
+
+
+// ---------------------------------------------------------------------------
+// AUXILIARES PARA TÍTULOS DINÁMICOS
+// Úsalas en el formato condicional del título de un visual, para que refleje
+// el filtro de ámbito que tenga aplicado el usuario.
+// ---------------------------------------------------------------------------
+
+Aviso de ámbito =
+IF(
+    SELECTEDVALUE(hechos[ambito_analisis]) = "Comparable internacionalmente",
+    "Países con volumen suficiente para comparación internacional",
+    "Vista global, dominada por Estados Unidos (~68% de los registros)"
+)
